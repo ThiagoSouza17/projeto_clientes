@@ -8,5 +8,5 @@ class Cliente(models.Model):
     celular = models.CharField(max_length=14)
     ativo = models.BooleanField()
 
-    def __str__(self):
+    def __str__(self): 
         return self.nome
