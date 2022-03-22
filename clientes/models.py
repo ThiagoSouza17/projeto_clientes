@@ -9,4 +9,4 @@ class Cliente(models.Model):
     ativo = models.BooleanField()
 
     def __str__(self): 
-        return self.nome
+        return self.nome 
